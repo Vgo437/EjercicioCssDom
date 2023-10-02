@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:1%; 
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+[id="contenido1"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80hv;
+    color:#29558E;
+    background-color: #B0C4DE;
+    flex-wrap: wrap;
+    
+}
+
+img , p, h1{
+    border-width: 5%;
+    padding: 1%;
+    margin-inline-end: 10%
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+
+form>label {
+    text-transform: uppercase;
+    color:#5B98B1;
+}
+
+[id="formulario"] ,[id="ciudad"], button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20%;
+    flex-wrap: wrap;
+    border-width: 3%;
+    color:#B1A75B;
+}
+
+button:hover{
+    color:#29558E;
+}
+[type="text"] {
+    border-width: 2px;
+    border-style:dotted;
+    background-color: #F3F2E7;
+}
+
+a:visited{
+    color:#B1A75B;
+}
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 2%;
+}
+
+
+ul>li:not(:last-child){
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    color:#6E73AA;
+    text-decoration:overline;
+    padding: 1.5%;
+}
+
+ul>li:last-child{
+    color:#B1A75B;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+
+
